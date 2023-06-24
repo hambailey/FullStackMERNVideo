@@ -1,3 +1,4 @@
+//'client/src/pages/Login.js'
 import { useState } from 'react'
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
 	async function loginUser(event) {
 		event.preventDefault()
 
-		const response = await fetch('http://localhost:1337/api/login', {
+		const response = await fetch('http//localhost:1337/api/login', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json',

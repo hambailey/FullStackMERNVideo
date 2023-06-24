@@ -1,3 +1,4 @@
+//'client/src/Pages/Dashboard.js'
 import React, { useEffect, useState } from 'react'
 import jwt from 'jsonwebtoken'
 import { useHistory } from 'react-router-dom'
@@ -8,7 +9,7 @@ const Dashboard = () => {
 	const [tempQuote, setTempQuote] = useState('')
 
 	async function populateQuote() {
-		const req = await fetch('http://localhost:1337/api/quote', {
+		const req = await fetch('http//localhost:1337/api/quote', {
 			headers: {
 				'x-access-token': localStorage.getItem('token'),
 			},
