@@ -1,3 +1,5 @@
+//'client/src/pages/Register.js'
+
 import { useState } from 'react'
 import { useHistory } from 'react-router-dom'
 
@@ -11,7 +13,7 @@ function App() {
 	async function registerUser(event) {
 		event.preventDefault()
 
-		const response = await fetch('http://localhost:1337/api/register', {
+		const response = await fetch('/api/register', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json',

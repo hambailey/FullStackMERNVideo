@@ -1,5 +1,6 @@
 // server/index.js
 
+const path = require('path')
 const express = require('express')
 const app = express()
 const cors = require('cors')
@@ -11,6 +12,7 @@ const User = require('./models/user.model')
 app.use(cors())
 app.use(express.json())
 
+//mongoose.connect('mongodb://localhost:27017/full-mern-stack-video')
 mongoose.connect('mongodb+srv://doadmin:8y0t5z4p6T321kno@db-mongodb-nyc3-81708-d674af5d.mongo.ondigitalocean.com/admin')
 
 app.get('/', (req, res) =>{
@@ -106,7 +108,7 @@ app.post('/api/quote', async (req, res) => {
 
 app.get('*', (req, res) => {
 	// send the index.html folder from build
-	res.send('This is the everything.')
+	res.sendFile(path.join(__dirname, 'static/index.html'))
 }),
 
 app.listen(1337, () => {
