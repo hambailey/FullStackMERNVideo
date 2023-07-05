@@ -8,11 +8,11 @@ Migrated Wiki to github.
 Server status:
   Works when manually initiated during login session.
 
-Server web address:
-  138.197.112.125:1337
-  138.197.112.125:1337/hello
-  138.197.112.125:1337/login
-  138.197.112.125:1337/register
+Server web address:<br>
+  138.197.112.125:1337<br>
+  138.197.112.125:1337/hello<br>
+  138.197.112.125:1337/login<br>
+  138.197.112.125:1337/register<br>
   138.197.112.125:1337/dashboard
 
 TODO:
