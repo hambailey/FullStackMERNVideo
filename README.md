@@ -15,8 +15,8 @@ Server web address:<br>
   138.197.112.125:1337/register<br>
   138.197.112.125:1337/dashboard
 
-TODO:
-  Server only runs when logged in.
-  Webpage is called, but none of the content is shown.(blank web page, error in debug)
-  Edit the wikis for readability
+TODO:<br>
+  Server only runs when logged in.<br>
+  Webpage is called, but none of the content is shown.(blank web page, error in debug)<br>
+  Edit the wikis for readability<br>
 
