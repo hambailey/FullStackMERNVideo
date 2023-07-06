@@ -5,6 +5,12 @@ Learning to setup a MERN server remotely
 
 Migrated Wiki to github.
 
+[Part 1 - MERN Stack Full Tutorial | User authentication, JWT, Node.js, MongoDB, React and more](https://github.com/hambailey/FullStackMERNVideo/wiki/Part-1)
+
+[Part 2 - Build and Deploy a MERN Stack Application | Complete MERN Stack Tutorial](https://github.com/hambailey/FullStackMERNVideo/wiki/Part-2)
+
+[Part 3 - How GitHub Actions Work? CI/CD Pipelines Explained!](https://github.com/hambailey/FullStackMERNVideo/wiki/Part-3)
+
 Server status:
   Works when manually initiated during login session.
 
