@@ -1,0 +1,60 @@
+Ubuntu 20.04
+~/git clone https://github.com/codedamn/full-mern-stack-video
+apt-get update && apt-get install npm
+npm -v
+apt update
+apt list --upgradable
+apt upgrade
+reboot
+apt --purge autoremove
+apt install update-manager-core
+do-release-upgrade
+reboot
+lsb_release -a
+npm -v
+npm i -g n
+n latest
+node -v
+yarn build
+export NODE_OPTIONS=--openssl-legacy-provider
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+nvm -v
+command -v nvm
+nvm ls-remote
+nvm install 'lts/*' --reinstall-packages-from=current
+nvm ls
+npm audit fix --force
+webpack -version
+npm list webpack
+yarn list webpack
+npm audit fix
+yarn add <package_name>
+yarn import
+npm uninstall react-scripts
+npm install react-scripts
+react-scripts build
+pm2 start index.js
+pm2 list
+yarn global add pm2
+pm2 start app.js
+pm2 start bashscript.sh
+pm2 start python-app.py --watch
+pm2 start binary-file -- --port 1520
+apt install nginx
+curl localhost:80
+nano /etc/nginx/sites-available/default
+	#root /var/www/html;
+		...
+		location / {
+		...
+			#try_files $uri $uri/ =404;
+			proxy_pass http://localhost:1337;
+sudo service nginx restart
+yarn init
+yarn add express
+yarn add nodemon
+yarn add cors
+yarn dev
+yarn add react-router-dom
+pm2 start index.js
+yarn add jsonwebtoken
