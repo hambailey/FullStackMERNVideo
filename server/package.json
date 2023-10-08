@@ -6,6 +6,17 @@
 	"scripts": {
 		"dev": "nodemon index.js"
 	},
+	"keywords": [
+		"node.js",
+		"express",
+		"jwt",
+		"login",
+		"registration",
+		"authentication",
+		"authorization",
+		"mongodb",
+		"mongoose"
+	],
 	"dependencies": {
 		"bcryptjs": "^2.4.3",
 		"cors": "^2.8.5",

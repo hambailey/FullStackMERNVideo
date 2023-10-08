@@ -7,11 +7,21 @@ const cors = require('cors')
 const jwt = require('jsonwebtoken')
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
+const cookieSession = require('coockie-session')
 
 const User = require('./models/user.model')
 
-app.use(cors())
+var corsOptions = {
+	origin: "http//:localhost:8081"
+};
+
+app.use(cors(corsOptions))
 app.use(express.json())
+app.use(express.urlencoded({ extended: true }));
+
+app.use(cookieSession({
+	
+}))
 
 // mongoose.connect('mongodb://localhost:27017/full-mern-stack-video')
 mongoose.connect('mongodb+srv://doadmin:8y0t5z4p6T321kno@db-mongodb-nyc3-81708-d674af5d.mongo.ondigitalocean.com/admin')
