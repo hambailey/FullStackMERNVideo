@@ -14,15 +14,20 @@ Migrated Wiki to github.
 Server status:
   Works when manually initiated during login session.
 
-Server web address:<br>
-  138.197.112.125:1337<br>
-  138.197.112.125:1337/hello<br>
-  138.197.112.125:1337/login<br>
-  138.197.112.125:1337/register<br>
-  138.197.112.125:1337/dashboard
+Server web address:
+  <ul><li>138.197.112.125:1337</li>
+  <li>138.197.112.125:1337/hello</li>
+  <li>i138.197.112.125:1337/login</li>
+  <li>138.197.112.125:1337/register</li>
+  <li>138.197.112.125:1337/dashboard</li>
+  </ul>
 
-TODO:<br>
-  Server only runs when logged in.<br>
-  Webpage is called, but none of the content is shown.(blank web page, error in debug)<br>
-  Edit the wikis for readability<br>
+TODO:
+  <ul><li>Server only runs when logged in.</li>
+  <li>Webpage is called, but none of the content is shown.(blank web page, error in debug)</li>
+  <li>Edit the wikis for readability</li>
+  </ul>
+
+To initiate localhost server, navigate to server folder and initate web server using command: 'nodemon index.js'.
+SSH into ubuntu remote server to pull updates.
 
